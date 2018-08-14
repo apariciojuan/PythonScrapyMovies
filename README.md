@@ -8,5 +8,6 @@ You can see data in a console, in json with ran command under or you can use cod
 Requerimient: Python 3.5.2, Scrapy 1.5, Selenium 3.14.0
 
 Generate Json with data.
+
 Run: scrapy crawl movie -o items.json
 
