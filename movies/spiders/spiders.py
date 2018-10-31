@@ -7,8 +7,8 @@ from movies.items import MoviesItem
 class MovieSpyder(CrawlSpider):
     name = 'movie'
     item_count = 0 #controla la cantidad de item a procesar no el spyder
-    allowed_domain = ['miradetodo.io/']
-    start_urls = ['http://miradetodo.io/?s=']
+    allowed_domain = ['miradetodo.net/']
+    start_urls = ['http://miradetodo.net/?s=']
 #    start_urls = ['http://miradetodo.io/category/animacion/']
     rules = {
 		# rules looking for next page and save individual item to callback
